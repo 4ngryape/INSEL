@@ -1,0 +1,10 @@
+b 1 CONST
+p 1
+          $var1||5$ %Rohrlaenge
+b 2 CONST
+p 2
+           3.00000000
+b 3 MUL  2.1 1.1
+b 4 SCREEN  3.1
+p 4
+'*'

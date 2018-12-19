@@ -1,0 +1,42 @@
+                % Filename       pv900000.bp                                    
+                % Photon ID      000000                                         
+                % Module         Custom Module                                     
+                % Manufacturer   Custom Company                         
+                % Cell type      mono                                    
+ 
+                % Mode must be set externally
+  48            % Number of cells in series N_s per module
+   1            % Number of cells in parallel N_p per module
+   1            % Number of modules in series M_s
+   1            % Number of modules in parallel M_p
+   0.0295       % Cell area A_c (m^2)
+   1.487        % Module area A_m (m^2)
+                                                                                
+                % Electrical parameters
+   1.12         % Band gap (eV)
+   0.2310       % Short-circuit current parameter C_0 (V^-1)
+   0.136E-03    % Isc temperature coefficient  C_1 (V^-1 K-^1)
+   0.576740E+04 % Shockley saturation parameter C_01 (A m-2 K^-3)
+   0            % Recombination saturation parameter C_02 (A m-2 K^-5/2)
+   0.00012530   % Series resistance r_s (Ohm m^2) 
+   0.06956506   % Parallel resistance r_p (Ohm m^2) 
+   1.0148778    % Shockley diode ideality factor alpha
+   2            % Recombination diode quality beta 
+   0            % Bishop parameter-1
+   0            % Bishop parameter-2
+   0            % Bishop parameter-3
+   5.0          % Module tolerance plus
+  -5.0          % Module tolerance minus
+                                                                                
+                % Thermal parameters
+   1.390        % Characteristic module length l_m (m)
+  40.000        % Module mass m_m (kg)
+   0.70         % Default absorption coefficient a
+   0.85         % Default emission factor epsilon
+ 900.0          % Default specific heat of a module C_mod (J kg^-1 K^-1)
+  45.0          % Nominal operating cell temperature NOCT (degrees C)
+  25            % Intial value of cell temperature (degrees C)
+                                                                                
+                % Numerical parameters (optional)
+   1E-5         % Error tolerance of voltage of single cell (V)
+ 100            % Maximal number of iterations to solve I/V-equation

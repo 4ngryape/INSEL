@@ -1,0 +1,97 @@
+\msection{Block UBHPPOLY}\label{UBHPPOLY}\hypertarget{UBHPPOLY}{}
+\mindex{UBHPPOLY}
+\pdfdest name {inselBlock.UBHPPOLY} fit
+The HPPOLY block simulates a compression heat pump by using
+the polynomial functions that describe the compressor
+performance according to EN12900.
+
+\bigskip
+
+\hrule
+
+\begin{center}
+\input{../../pic/ubhppoly.pic}
+\end{center}
+
+\medskip
+
+\hrule
+
+\begin{layoutlist}
+\item[{\bf \mblue{Name}}]        UBHPPOLY
+\item[{\bf \mblue{Function}}]    ub0164
+\item[{\bf \mblue{Inputs}}]      4
+\item[{\bf \mblue{Outputs}}]     9
+\item[{\bf \mblue{Parameters}}]  25
+\item[{\bf \mblue{Strings}}]     0
+\item[{\bf \mblue{Group}}]       3
+\end{layoutlist}
+
+\medskip
+
+\hrule
+
+\bigskip
+
+\mmarginlabel{Inputs}
+%
+\begin{detaillist}
+\item[1]  Fluid inlet temperature at condenser side Tc_in [°C]
+\item[2]  Fluid mass flow rate in the condenser mdot_cond [kg/s]
+\item[3]  Fluid inlet temperature at evaporator side Te_in [°C]
+\item[4]  Fluid mass flow rate in the evaporator mdot_eva [kg/s]
+\end{detaillist}
+
+\mmarginlabel{Parameters}
+%
+\begin{detaillist}
+\item[1]  Number of compressors Nc[-]
+\item[2]  Specific heat capacity of fluid at evaporator side cp_e [kJ/(kgK)]
+\item[3]  Specific heat capacity of fluid at condenser side cp_c [kJ/(kgK)]
+\item[4]  UA value of HX at evaporator side UAe [kW/K]
+\item[5]  UA value of HX at condenser side UAc [kW/K]
+\item[6]  Polynomial coefficient 1 for cooling capacity c1
+\item[7]  Polynomial coefficient 2 for cooling capacity c2
+\item[8]  Polynomial coefficient 3 for cooling capacity c3
+\item[9]  Polynomial coefficient 4 for cooling capacity c4
+\item[10]  Polynomial coefficient 5 for cooling capacity c5
+\item[11]  Polynomial coefficient 6 for cooling capacity c6
+\item[12]  Polynomial coefficient 7 for cooling capacity c7
+\item[13]  Polynomial coefficient 8 for cooling capacity c8
+\item[14]  Polynomial coefficient 9 for cooling capacity c9
+\item[15]  Polynomial coefficient 10 for cooling capacity c10
+\item[16]  Polynomial coefficient 1 for electricity consumption d1
+\item[17]  Polynomial coefficient 2 for electricity consumption d2
+\item[18]  Polynomial coefficient 3 for electricity consumption d3
+\item[19]  Polynomial coefficient 4 for electricity consumption d4
+\item[20]  Polynomial coefficient 5 for electricity consumption d5
+\item[21]  Polynomial coefficient 6 for electricity consumption d6
+\item[22]  Polynomial coefficient 7 for electricity consumption d7
+\item[23]  Polynomial coefficient 8 for electricity consumption d8
+\item[24]  Polynomial coefficient 9 for electricity consumption d9
+\item[25]  Polynomial coefficient 10 for electricity consumption d10
+\end{detaillist}
+
+\mmarginlabel{Outputs}
+%
+\begin{detaillist}
+\item[1] Outlet fluid temperature at condenser side Tc_out [°C]
+\item[2] Outlet fluid temperature at evaporator side Te_out [°C]
+\item[3] Power dissipated at condenser Qcond [kW]
+\item[4] Power absorbed at evaporator Qeva [kW]
+\item[5] Electrical power consumed by the compressor Pe [kW]
+\item[6] COP of the heat pump in heating mode COPh [-]
+\item[7] COP of the heat pump in cooling mode COPc [-]
+\item[8] Condenser temperature Tcond [°C]
+\item[9] Evaporator temperature Teva[°C]
+\end{detaillist}
+
+\mmarginlabel{Strings}
+%
+\begin{detaillist}
+\item[]  None
+\end{detaillist}
+
+\bigskip
+
+\hrule

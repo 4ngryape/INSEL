@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;INSEL/src/ub0113.f&apos; to &apos;ub0113_pirmin.f.txt&apos;" description="Rename resource &apos;ub0113.f&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ub0113.f" name="ub0113_pirmin.f.txt" stamp="1530009353971" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;INSEL/src/OLD_ub0113.f.txt&apos; to &apos;ub0113.f&apos;" description="Rename resource &apos;OLD_ub0113.f.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/OLD_ub0113.f.txt" name="ub0113.f" stamp="1530009361807" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;INSEL/src/UB01018.f&apos; to &apos;UB0108.f&apos;" description="Rename resource &apos;UB01018.f&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/UB01018.f" name="UB0108.f" stamp="1512033489806" updateReferences="true"/>
+</session>

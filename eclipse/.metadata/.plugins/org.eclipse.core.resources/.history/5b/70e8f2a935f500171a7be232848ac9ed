@@ -1,0 +1,64 @@
+
+C #Authors
+C    Marcus Brennenstuhl
+C #End
+C-----------------------------------------------------------------------
+      SUBROUTINE UB0109(IN,OUT,IP,RP,DP,BP,SP)
+      IMPLICIT         NONE
+      CHARACTER*1024   BNAMES
+      INTEGER          INMIN,INS,OUTS,IPS,RPS,DPS,BPMIN,BPS,SPMIN,SPS,
+     &                 GROUP,OPM
+
+      INTEGER          SOY, SOY_start, SOY_end
+
+
+
+      PARAMETER       (BNAMES = 'UBWPSTATUS'
+     &,                OPM    = 1
+     &,                INMIN  = 0
+     &,                INS    = 3
+     &,                OUTS   = 1
+     &,                IPS    = 45
+     &,                RPS    = 1
+     &,                DPS    = 0
+     &,                BPMIN  = 5
+     &,                BPS    = 5
+     &,                SPMIN  = 0
+     &,                SPS    = 0
+     &,                GROUP  = 3)
+      CHARACTER*1024   SP(SPS+1),STEXT
+      DOUBLE PRECISION DP(DPS+1)
+      INTEGER          IP(IPS+1),II
+      REAL             IN(INS+1),OUT(OUTS+1),RP(RPS+1),BP(BPS+1),
+     &                 HP_use, T_storage1, T_storage2, T_setstorage1,
+     &                 T_setstorage2, D_QStorage1, D_QStorage2, P_HP
+C-----------------------------------------------------------------------
+      IF (IP(2) .NE. 0) THEN
+         IF (IP(2) .EQ. -1) THEN
+C           Identification call
+            CALL ID(IN,OUT,IP,RP,DP,BP,SP,BNAMES,OPM,
+     &         INMIN,INS,OUTS,IPS,RPS,DPS,BPMIN,BPS,SPMIN,SPS,GROUP)
+         ELSE IF (IP(2) .EQ. 1 ) THEN
+C           Constructor call
+
+         ELSE
+C           Destructor call
+         END IF
+         RETURN
+      END IF
+
+      SOY = IN(1)
+      HP_use = IN(2)
+      T_storage1 = IN(3)
+      T_storage2 = IN(4)
+      T_setstorage1 = IN(5)
+      T_setstorage2 = IN(6)
+      D_QStorage1 = BP(1)
+      D_QStorage2 = BP(2)
+      P_HP = BP(3)
+
+
+      RETURN
+      END
+
+

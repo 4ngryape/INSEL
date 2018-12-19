@@ -1,0 +1,120 @@
+
+C #Authors
+C    Marcus Brennenstuhl
+C #End
+C-----------------------------------------------------------------------
+      SUBROUTINE UB0104(IN,OUT,IP,RP,DP,BP,SP)
+      IMPLICIT         NONE
+      CHARACTER*1024   BNAMES
+      INTEGER          INMIN,INS,OUTS,IPS,RPS,DPS,BPMIN,BPS,SPMIN,SPS,
+     &                 GROUP,OPM
+
+      REAL Time
+      INTEGER x, I, io, J
+
+
+
+      PARAMETER       (BNAMES = 'UBPAUSE'
+     &,                OPM    = 1
+     &,                INMIN  = 1
+     &,                INS    = 4
+     &,                OUTS   = 1
+     &,                IPS    = 45
+     &,                RPS    = 1
+     &,                DPS    = 0
+     &,                BPMIN  = 0
+     &,                BPS    = 1
+     &,                SPMIN  = 1
+     &,                SPS    = 2
+     &,                GROUP  = 3)
+      CHARACTER*1024   SP(SPS+1),STEXT
+      DOUBLE PRECISION DP(DPS+1)
+      INTEGER          IP(IPS+1),II
+      REAL             IN(INS+1),OUT(OUTS+1),RP(RPS+1),BP(BPS+1),
+     &                 Data(999999,10)
+C-----------------------------------------------------------------------
+      IF (IP(2) .NE. 0) THEN
+         IF (IP(2) .EQ. -1) THEN
+C           Identification call
+            CALL ID(IN,OUT,IP,RP,DP,BP,SP,BNAMES,OPM,
+     &         INMIN,INS,OUTS,IPS,RPS,DPS,BPMIN,BPS,SPMIN,SPS,GROUP)
+         ELSE IF (IP(2) .EQ. 1 ) THEN
+C           Constructor call
+            x = 0
+         ELSE
+C           Destructor call
+         END IF
+         RETURN
+      END IF
+
+
+
+         I = 1
+         J = 1
+         Data(I,bp(1)) = 1
+
+            OPEN(20,FILE=sp(1), STATUS='OLD', IOSTAT=IO,
+     &      ACTION='WRITE', access='direct', RECL=12,FORM='FORMATTED')
+            WRITE (30,'(1F12.4)',REC=I)Data(I,0), Data(I,1), Data(I,2)
+     &      , Data(I,3), Data(I,4), Data(I,5), Data(I,6), Data(I,7)
+     &      , Data(I,8), Data(I,9)
+            CLOSE(20)
+
+
+
+        IF (IN(1) .EQ. 0) THEN
+
+
+            OPEN(30,FILE=sp(2), STATUS='OLD', IOSTAT=IO,
+     &      ACTION='READ', access='direct', RECL=12,FORM='FORMATTED')
+            READ (30,'(1F12.4)',REC=I) Data(I,0), Data(I,1), Data(I,2)
+     &      , Data(I,3), Data(I,4), Data(I,5), Data(I,6), Data(I,7)
+     &      , Data(I,8), Data(I,9)
+            CLOSE(30)
+
+            Data(I,bp(1)) = 0
+
+            OPEN(20,FILE=sp(1), STATUS='OLD', IOSTAT=IO,
+     &      ACTION='WRITE', access='direct', RECL=12,FORM='FORMATTED')
+            WRITE (30,'(1F12.4)',REC=I)Data(I,0), Data(I,1), Data(I,2)
+     &      , Data(I,3), Data(I,4), Data(I,5), Data(I,6), Data(I,7)
+     &      , Data(I,8), Data(I,9)
+            CLOSE(20)
+
+
+            DO WHILE (Data(I,bp(1)) .LT. 1)
+
+
+            OPEN(30,FILE=sp(2), STATUS='OLD', IOSTAT=IO,
+     &      ACTION='READ', access='direct', RECL=12,FORM='FORMATTED')
+            READ (30,'(1F12.4)',REC=I) Data(I,0), Data(I,1), Data(I,2)
+     &      , Data(I,3), Data(I,4), Data(I,5), Data(I,6), Data(I,7)
+     &      , Data(I,8), Data(I,9)
+            CLOSE(30)
+
+
+!            OPEN(30,FILE=sp(2), STATUS='OLD', IOSTAT=IO,
+!     &      ACTION='WRITE', access='direct', RECL=9,FORM='FORMATTED')
+!            WRITE (30,'(1F8.1)',REC=I) Data(J,0)
+!            CLOSE(30)
+!
+!
+!
+!            OPEN(20,FILE=sp(1), STATUS='OLD', IOSTAT=IO,
+!     &      ACTION='READ', access='direct', RECL=102,FORM='FORMATTED')
+!            READ (20,'(1F8.1)',REC=I) Data(I,0)
+!
+!            CLOSE(20)
+!
+!#            call sleep (5)
+
+            END DO
+
+        END IF
+
+
+
+      RETURN
+      END
+
+

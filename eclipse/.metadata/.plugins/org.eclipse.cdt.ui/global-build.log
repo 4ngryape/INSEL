@@ -1,0 +1,663 @@
+18:03:13 **** Build of configuration Default for project INSEL ****
+make all 
+Building inselUB.dll ...
+gfortran -c -O0 -Wall -g3  \
+	-fno-automatic -fno-underscoring -fmessage-length=0 \
+	C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/fb0049.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0003.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0004.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0005.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0015.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0016.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0019.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0029.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0030.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0031.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0032.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0033.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0034.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0035.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0036.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0037.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0051.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0052.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0053.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0090.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0092.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0093.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0094.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0095.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0096.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0097.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0099.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0100.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0101.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0102.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0103.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0105.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0106.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0107.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0109.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0110.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0111.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0112.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0114.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0161.f C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0164.f
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0015.f:139.72:
+
+         Tout             =Tres-(Qloss*dt)/(m*cp)                       
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:205.72:
+
+              pointR(1,1)=pointW(i,1)+incWi*(j-0.5)*sin(normal(i))      
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:206.72:
+
+              pointR(1,2)=pointW(i,2)-incWi*(j-0.5)*cos(normal(i))      
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:217.72:
+
+                  pointR(2,1)=pointW(k,1)+incWj*(m-0.5)*sin(normal(k))  
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:218.72:
+
+                  pointR(2,2)=pointW(k,2)-incWj*(m-0.5)*cos(normal(k))  
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:265.72:
+
+                      mm=n+1                                            
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:335.72:
+
+                            If(abs(Ar-Aw).lt.0.00000001) Then           
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:360.72:
+
+     >                    (pointR(2,2)-pointR(1,2))**2)**0.5            
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:401.72:
+
+              do i=1,ndiv                                               
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:402.72:
+
+                do j=1,ndiv                                             
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:403.72:
+
+                  do k=1,ndiv                                           
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0039.f:404.72:
+
+                    do m=1,ndiv                                         
+                                                                        1
+Warning: Line truncated at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0051.f:69.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0051.f:67.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+Warning: Nonconforming tab character in column 2 of line 15
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:25.45:
+
+     &                 Qpv(9999), C_batt, cop, qbatt(1440),             
+                                             1
+Warning: Unused variable 'cop' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:27.27:
+
+     &                 cset, CN(1440)                                   
+                           1
+Warning: Unused variable 'cset' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:26.36:
+
+     &                 Data(9999,10), maxprice, gain, minqbatt,         
+                                    1
+Warning: Unused variable 'data' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:26.52:
+
+     &                 Data(9999,10), maxprice, gain, minqbatt,         
+                                                    1
+Warning: Unused variable 'gain' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:21.38:
+
+      INTEGER          IP(IPS+1), s, I, io, read, MOY, set, x,          
+                                      1
+Warning: Unused variable 'i' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:21.42:
+
+      INTEGER          IP(IPS+1), s, I, io, read, MOY, set, x,          
+                                          1
+Warning: Unused variable 'io' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:26.62:
+
+     &                 Data(9999,10), maxprice, gain, minqbatt,         
+                                                              1
+Warning: Unused variable 'minqbatt' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:21.53:
+
+      INTEGER          IP(IPS+1), s, I, io, read, MOY, set, x,          
+                                                     1
+Warning: Unused variable 'moy' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:25.32:
+
+     &                 Qpv(9999), C_batt, cop, qbatt(1440),             
+                                1
+Warning: Unused variable 'qpv' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0089.f:22.36:
+
+     &                 set_out(9999), minute, tset, hour, HOY, time     
+                                    1
+Warning: Unused variable 'set_out' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0090.f:39.38:
+
+     &                 Data(999999,10)                                  
+                                      1
+Warning: Unused variable 'data' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0090.f:13.27:
+
+      INTEGER io, minute, I                                             
+                           1
+Warning: Unused variable 'i' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0090.f:37.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0090.f:13.16:
+
+      INTEGER io, minute, I                                             
+                1
+Warning: Unused variable 'io' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0090.f:13.24:
+
+      INTEGER io, minute, I                                             
+                        1
+Warning: Unused variable 'minute' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0090.f:35.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f:25.67:
+
+      REAL             IN(INS+1),OUT(OUTS+1),RP(RPS+1),BP(BPS+1), C,    
+                                                                   1
+Warning: Unused variable 'c' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f:26.45:
+
+     &                 Qpv(9999), C_batt, cop, qbatt(1440),             
+                                             1
+Warning: Unused variable 'cop' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f:28.27:
+
+     &                 cset                                             
+                           1
+Warning: Unused variable 'cset' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f:27.52:
+
+     &                 Data(9999,10), maxprice, gain, minqbatt,         
+                                                    1
+Warning: Unused variable 'gain' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f:27.62:
+
+     &                 Data(9999,10), maxprice, gain, minqbatt,         
+                                                              1
+Warning: Unused variable 'minqbatt' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f:26.32:
+
+     &                 Qpv(9999), C_batt, cop, qbatt(1440),             
+                                1
+Warning: Unused variable 'qpv' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0091.f:22.36:
+
+     &                 set_out(9999), minute, tset, hour, HOY, time,    
+                                    1
+Warning: Unused variable 'set_out' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0092.f:430.13:
+
+      If (in(19) .eq. 0) then                                           
+             1
+Warning: Array reference at (1) is out of bounds (19 > 16) in dimension 1
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0092.f:83.35:
+
+      INTEGER I,A, TimeP, nC, io, x                                     
+                                   1
+Warning: Unused variable 'x' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0092.f:77.65:
+
+     &                 Ewinkel, GdirK, GtotK, Gain(24), Qstart, y,      
+                                                                 1
+Warning: Unused variable 'y' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0097.f:86.43:
+
+        READ (20,'(10F10.3)',REC=I) Data(I,0),Data(I,1), Data(I,2),     
+                                           1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0097.f:37.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0097.f:35.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f:450.27:
+
+         IF (IN(3) .LT. in((4)+bp(9)).AND. roomheat .EQ. 1) THEN        
+                           1
+Warning: Extension: REAL array index at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f:82.70:
+
+     &                 min_heat, min_tww, min_room, s, roomheat, I, io, 
+                                                                      1
+Warning: Unused variable 'io' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f:80.40:
+
+      INTEGER          IP(IPS+1),x, mode, heat, mode_heat_set,          
+                                        1
+Warning: Unused variable 'mode' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f:80.61:
+
+      INTEGER          IP(IPS+1),x, mode, heat, mode_heat_set,          
+                                                             1
+Warning: Unused variable 'mode_heat_set' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f:81.35:
+
+     &                 mode_tww_set, mode_heat_delta, mode_tww_delta,   
+                                   1
+Warning: Unused variable 'mode_tww_set' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f:80.34:
+
+      INTEGER          IP(IPS+1),x, mode, heat, mode_heat_set,          
+                                  1
+Warning: Unused variable 'x' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0098.f:83.52:
+
+     &                 t_battload, hour, set_batt, z                    
+                                                    1
+Warning: Unused variable 'z' declared at (1)
+Warning: Nonconforming tab character in column 2 of line 15
+Warning: Nonconforming tab character in column 2 of line 15
+Warning: Nonconforming tab character in column 2 of line 15
+Warning: Nonconforming tab character in column 2 of line 15
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0103.f:169.58:
+
+      REAL             THICK(NLAYMAX), LAMBDAS, RHOS, CAPS              
+                                                          1
+Warning: Unused variable 'caps' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0103.f:169.46:
+
+      REAL             THICK(NLAYMAX), LAMBDAS, RHOS, CAPS              
+                                              1
+Warning: Unused variable 'lambdas' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0103.f:169.52:
+
+      REAL             THICK(NLAYMAX), LAMBDAS, RHOS, CAPS              
+                                                    1
+Warning: Unused variable 'rhos' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0103.f:173.42:
+
+      REAL             C3,C4,DELTAT, T_EXT                              
+                                          1
+Warning: Unused variable 't_ext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:72.46:
+
+            READ (30,'(1F12.4)',REC=I) Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:81.19:
+
+            Data(I,0) = 0                                               
+                   1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:91.46:
+
+            WRITE (30,'(1F12.4)',REC=I)Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:116.46:
+
+            READ (30,'(1F12.4)',REC=I) Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:99.29:
+
+            DO WHILE (Data(I,0) .LT. 1)                                 
+                             1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:14.19:
+
+      CHARACTER dir                                                     
+                   1
+Warning: Unused variable 'dir' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:13.32:
+
+      INTEGER x, I, io, J, error, RECSIZE, ios                          
+                                1
+Warning: Unused variable 'error' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:15.16:
+
+      LOGICAL ex, existfile, od                                         
+                1
+Warning: Unused variable 'ex' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:15.27:
+
+      LOGICAL ex, existfile, od                                         
+                           1
+Warning: Unused variable 'existfile' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:36.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:13.46:
+
+      INTEGER x, I, io, J, error, RECSIZE, ios                          
+                                              1
+Warning: Unused variable 'ios' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:13.25:
+
+      INTEGER x, I, io, J, error, RECSIZE, ios                          
+                         1
+Warning: Unused variable 'j' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:15.31:
+
+      LOGICAL ex, existfile, od                                         
+                               1
+Warning: Unused variable 'od' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:13.41:
+
+      INTEGER x, I, io, J, error, RECSIZE, ios                          
+                                         1
+Warning: Unused variable 'recsize' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:12.14:
+
+      REAL set, set2, u                                                 
+              1
+Warning: Unused variable 'set' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:12.20:
+
+      REAL set, set2, u                                                 
+                    1
+Warning: Unused variable 'set2' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:34.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0104.f:12.23:
+
+      REAL set, set2, u                                                 
+                       1
+Warning: Unused variable 'u' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0105.f:55.19:
+
+            Data(I,bp(2)) = in(1)                                       
+                   1
+Warning: Extension: REAL array index at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0105.f:60.46:
+
+            WRITE (30,'(1F12.4)',REC=I)Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0105.f:31.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0105.f:29.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0106.f:57.46:
+
+            READ (30,'(1F12.4)',REC=I) Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0106.f:60.28:
+
+            out(1) = Data(I,0)                                          
+                            1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0106.f:31.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0106.f:29.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0107.f:33.38:
+
+     &                 Data(999999,10)                                  
+                                      1
+Warning: Unused variable 'data' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0107.f:31.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0107.f:12.19:
+
+      INTEGER I, io                                                     
+                   1
+Warning: Unused variable 'io' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0107.f:29.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:83.46:
+
+            READ (30,'(1F12.4)',REC=I) Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:86.19:
+
+            Data(I,0) = 0                                               
+                   1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:90.46:
+
+            WRITE (30,'(1F12.4)',REC=I)Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:99.46:
+
+            READ (30,'(1F12.4)',REC=I) Data(I,0)                        
+                                              1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:94.29:
+
+            DO WHILE (Data(I,0) .LT. 1)                                 
+                             1
+Warning: Array reference at (1) is out of bounds (0 < 1) in dimension 2
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:13.32:
+
+      INTEGER x, I, io, J, error                                        
+                                1
+Warning: Unused variable 'error' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:14.16:
+
+      LOGICAL ex                                                        
+                1
+Warning: Unused variable 'ex' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:33.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:13.25:
+
+      INTEGER x, I, io, J, error                                        
+                         1
+Warning: Unused variable 'j' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0108.f:31.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0109.f:32.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0109.f:30.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+Warning: Nonconforming tab character in column 1 of line 102
+Warning: Nonconforming tab character in column 1 of line 134
+Warning: Nonconforming tab character in column 1 of line 141
+Warning: Nonconforming tab character in column 1 of line 162
+Warning: Nonconforming tab character in column 1 of line 163
+Warning: Nonconforming tab character in column 1 of line 164
+Warning: Nonconforming tab character in column 1 of line 169
+Warning: Nonconforming tab character in column 1 of line 170
+Warning: Nonconforming tab character in column 1 of line 171
+Warning: Nonconforming tab character in column 1 of line 172
+Warning: Nonconforming tab character in column 1 of line 173
+Warning: Nonconforming tab character in column 1 of line 174
+Warning: Nonconforming tab character in column 1 of line 175
+Warning: Nonconforming tab character in column 1 of line 176
+Warning: Nonconforming tab character in column 1 of line 179
+Warning: Nonconforming tab character in column 1 of line 180
+Warning: Nonconforming tab character in column 1 of line 181
+Warning: Nonconforming tab character in column 1 of line 182
+Warning: Nonconforming tab character in column 1 of line 186
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0111.f:79.38:
+
+      CHARACTER*80     SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0112.f:30.38:
+
+     &                 Data(999999,10)                                  
+                                      1
+Warning: Unused variable 'data' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0112.f:28.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0112.f:26.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:26.33:
+
+     &                 Gain(8760), GainSum, GainSumSet, Azone1, Azone2, 
+                                 1
+Warning: Unused variable 'gain' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:23.66:
+
+     &                 min_heat, min_tww, min_room, s, roomheat, I, io, 
+                                                                  1
+Warning: Unused variable 'i' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:23.70:
+
+     &                 min_heat, min_tww, min_room, s, roomheat, I, io, 
+                                                                      1
+Warning: Unused variable 'io' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:21.40:
+
+      INTEGER          IP(IPS+1),x, mode, heat, mode_heat_set,          
+                                        1
+Warning: Unused variable 'mode' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:21.61:
+
+      INTEGER          IP(IPS+1),x, mode, heat, mode_heat_set,          
+                                                             1
+Warning: Unused variable 'mode_heat_set' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:22.35:
+
+     &                 mode_tww_set, mode_heat_delta, mode_tww_delta,   
+                                   1
+Warning: Unused variable 'mode_tww_set' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:21.34:
+
+      INTEGER          IP(IPS+1),x, mode, heat, mode_heat_set,          
+                                  1
+Warning: Unused variable 'x' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0113.f:24.52:
+
+     &                 t_battload, hour, set_batt, z                    
+                                                    1
+Warning: Unused variable 'z' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0114.f:32.35:
+
+      INTEGER          IP(IPS+1),II                                     
+                                   1
+Warning: Unused variable 'ii' declared at (1)
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/UB0114.f:30.38:
+
+      CHARACTER*1024   SP(SPS+1),STEXT                                  
+                                      1
+Warning: Unused variable 'stext' declared at (1)
+Warning: Nonconforming tab character in column 1 of line 126
+Warning: Nonconforming tab character in column 1 of line 127
+Warning: Nonconforming tab character in column 1 of line 129
+Warning: Nonconforming tab character in column 1 of line 130
+Warning: Nonconforming tab character in column 1 of line 131
+Warning: Nonconforming tab character in column 1 of line 132
+Warning: Nonconforming tab character in column 1 of line 133
+Warning: Nonconforming tab character in column 1 of line 134
+Warning: Nonconforming tab character in column 1 of line 135
+Warning: Nonconforming tab character in column 1 of line 136
+Warning: Nonconforming tab character in column 1 of line 137
+Warning: Nonconforming tab character in column 1 of line 138
+Warning: Nonconforming tab character in column 1 of line 139
+Warning: Nonconforming tab character in column 1 of line 140
+Warning: Nonconforming tab character in column 1 of line 141
+Warning: Nonconforming tab character in column 1 of line 142
+Warning: Nonconforming tab character in column 1 of line 143
+Warning: Nonconforming tab character in column 1 of line 144
+Warning: Nonconforming tab character in column 1 of line 145
+Warning: Nonconforming tab character in column 1 of line 146
+Warning: Nonconforming tab character in column 1 of line 147
+Warning: Nonconforming tab character in column 1 of line 148
+Warning: Nonconforming tab character in column 1 of line 152
+Warning: Nonconforming tab character in column 1 of line 153
+Warning: Nonconforming tab character in column 1 of line 157
+Warning: Nonconforming tab character in column 1 of line 158
+Warning: Nonconforming tab character in column 1 of line 159
+Warning: Nonconforming tab character in column 1 of line 160
+Warning: Nonconforming tab character in column 1 of line 161
+Warning: Nonconforming tab character in column 1 of line 162
+Warning: Nonconforming tab character in column 1 of line 163
+Warning: Nonconforming tab character in column 1 of line 164
+Warning: Nonconforming tab character in column 1 of line 165
+Warning: Nonconforming tab character in column 1 of line 166
+Warning: Nonconforming tab character in column 1 of line 167
+Warning: Nonconforming tab character in column 1 of line 168
+Warning: Nonconforming tab character in column 1 of line 169
+Warning: Nonconforming tab character in column 1 of line 170
+Warning: Nonconforming tab character in column 1 of line 171
+Warning: Nonconforming tab character in column 1 of line 172
+Warning: Nonconforming tab character in column 1 of line 173
+Warning: Nonconforming tab character in column 1 of line 174
+Warning: Nonconforming tab character in column 1 of line 175
+Warning: Nonconforming tab character in column 1 of line 176
+Warning: Nonconforming tab character in column 1 of line 185
+Warning: Nonconforming tab character in column 1 of line 188
+Warning: Nonconforming tab character in column 1 of line 192
+Warning: Nonconforming tab character in column 1 of line 204
+Warning: Nonconforming tab character in column 1 of line 205
+Warning: Nonconforming tab character in column 1 of line 206
+Warning: Nonconforming tab character in column 1 of line 210
+Warning: Nonconforming tab character in column 1 of line 212
+Warning: Nonconforming tab character in column 1 of line 214
+Warning: Nonconforming tab character in column 1 of line 228
+Warning: Nonconforming tab character in column 1 of line 229
+Warning: Nonconforming tab character in column 1 of line 230
+Warning: Nonconforming tab character in column 1 of line 234
+Warning: Nonconforming tab character in column 1 of line 236
+Warning: Nonconforming tab character in column 1 of line 238
+Warning: Nonconforming tab character in column 1 of line 242
+Warning: Nonconforming tab character in column 1 of line 245
+Warning: Nonconforming tab character in column 1 of line 248
+Warning: Nonconforming tab character in column 1 of line 249
+Warning: Nonconforming tab character in column 1 of line 250
+Warning: Nonconforming tab character in column 1 of line 251
+Warning: Nonconforming tab character in column 1 of line 252
+Warning: Nonconforming tab character in column 1 of line 253
+Warning: Nonconforming tab character in column 1 of line 254
+Warning: Nonconforming tab character in column 1 of line 255
+Warning: Nonconforming tab character in column 1 of line 256
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0164.f:101.41:
+
+      CHARACTER*1024     SP(SPS+1), STEXT                               
+                                         1
+Warning: Unused variable 'stext' declared at (1)
+g++ -g -O0 -Wall -c -fmessage-length=0 \
+	C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0012.cpp C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0014.cpp C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0024.cpp C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0025.cpp
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0024.cpp: In function `void ub0024(float*, float*, int*, float*, double*, float*, char (*)[1024])':
+C:/Users/Marcus.Brennenstuhl/Documents/insel.work/eclipse/INSEL/src/ub0024.cpp:179: warning: converting to `int' from `float'
+gfortran -shared -g3 -o  "C:/Users/Marcus.Brennenstuhl/Documents/insel.work/inselUB/resources/inselUB.dll" \
+	-Wall -L "C:/Users/Marcus.Brennenstuhl/Documents/insel.work/inselUB/resources" -linselTools -linselRefpropHFT \
+	./fb0049.o ./ub0003.o ./ub0004.o ./ub0005.o ./ub0015.o ./ub0016.o ./ub0019.o ./ub0029.o ./ub0030.o ./ub0031.o ./ub0032.o ./ub0033.o ./ub0034.o ./ub0035.o ./ub0036.o ./ub0037.o ./ub0039.o ./ub0051.o ./ub0052.o ./ub0053.o ./ub0089.o ./UB0090.o ./ub0091.o ./ub0092.o ./ub0093.o ./ub0094.o ./ub0095.o ./ub0096.o ./UB0097.o ./ub0098.o ./ub0099.o ./ub0100.o ./ub0101.o ./ub0102.o ./ub0103.o ./UB0104.o ./UB0105.o ./UB0106.o ./UB0107.o ./UB0108.o ./UB0109.o ./UB0110.o ./ub0111.o ./UB0112.o ./ub0113.o ./UB0114.o ./ub0161.o ./ub0164.o ./ub0012.o ./ub0014.o ./ub0024.o ./ub0025.o 
+del *.o

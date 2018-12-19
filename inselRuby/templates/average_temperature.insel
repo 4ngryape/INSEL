@@ -1,0 +1,9 @@
+b 1 MTM  3.1
+p 1
+    '$location||Stuttgart$'
+b 2 SCREEN  1.7
+p 2
+    '*'
+b 3 CONST
+p 3
+           1.00000000
